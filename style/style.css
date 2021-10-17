@@ -1,0 +1,40 @@
+@media(min-width:768px){
+	.container1{
+		display:flex; 
+		justify-content:center;
+		width: 50%; 
+		text-align: center; 
+	}
+
+	.container2{
+		display:flex; 
+		justify-content:space-around;
+	}
+}
+
+.icon{
+	padding: 10px; 
+}
+
+.summary-box{
+	flex-basis:35%;
+	padding: 10px;
+	order: 1; 
+}
+
+body{
+	display: flex; 
+	flex-direction: column; 
+	background-image: url("../images/bg-2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom left;
+	background-color: white;
+	color:gray;
+	font-family:Helvetica;
+}
+
+
+/*
+#69cdff 
+*/
