@@ -3,39 +3,126 @@
 	<head>
 		<title>Paulina Stachera-Diaz</title>
 		<link rel="stylesheet" href="style/style.css"/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</head>
-	<center>
 	<body>
-		
-		<img src="images/paulina-245x245.jpg" alt="Profile picture">
-		
-		<header class="container1">
-			<div class="opening">
-				
-				<h1>Paulina Stachera-Diaz</h1>
-								
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container">
+		<a class="navbar-brand" href="#"><img src="images/360x360-logo.jpg" alt="Logo" height="50"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="cover letter/index.html">Cover Letter</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact/index.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	  </div>
+	</nav>
+	
+	<!-- carrousel -->
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+		<div class="carousel-item active img-fluid">
+		  <img src="images/gregory-dalleau-KT4dOfvtZSg-unsplash.jpg" class="d-block w-100" alt="Streets of Dublin">
+		</div>
+		<div class="carousel-item img-fluid">
+		  <img src="images/gabriel-ramos-NCP6XF9XmvA-unsplash.jpg" class="d-block w-100" alt="River Liffey">
+		</div>
+		<div class="carousel-item img-fluid">
+		  <img src="images/alejandro-luengo-YOeEWHWWTOw-unsplash.jpg" class="d-block w-100" alt="Howth Cliff Walk">
+		</div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+	
+	<!-- about -->
+	<div class="container-about">
+		<div class="row">
+			<div class="col-lg-6 profilepic">
+				<center>
+				<img src="images/paulina-245x245.jpg" alt="Profile picture">
+				</center>
 			</div>
 			
-		</header>
+			<div class="col-lg-5">
+				<h1 class="h1">Paulina Stachera-Diaz</h1>
+				<p class="description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices, massa sit amet ornare scelerisque, massa enim maximus neque, vel fringilla ligula tellus at mi. Suspendisse potenti. Donec nec sagittis sapien, et feugiat nulla. Sed lobortis nisi ut elementum ullamcorper. Sed convallis id ex eu faucibus. Nam nec tellus elementum, blandit lacus vitae, pellentesque magna. Donec eu ultrices justo. Vestibulum fringilla odio non mauris fermentum, at scelerisque elit scelerisque.
+
+				Maecenas quis nisl id libero ullamcorper dictum. Proin condimentum arcu eu enim volutpat ornare. Donec in lorem sed enim lobortis iaculis. Maecenas ante ante, egestas eu gravida ut, ullamcorper ac purus. Pellentesque dignissim ante auctor diam interdum volutpat. Quisque tempor commodo ipsum, eget tempor magna imperdiet at. Pellentesque hendrerit maximus luctus.
+
+				Praesent scelerisque sollicitudin libero, eget pellentesque lacus semper sed. Suspendisse non velit eget enim venenatis mattis quis vel mi. Ut quis vulputate ligula. Vestibulum rutrum dui vel fringilla lacinia. Duis non ultrices ante. Proin at sollicitudin lacus, vitae pharetra nibh. Sed felis nunc, vulputate ac urna sagittis, ultricies dapibus massa. Donec at risus tellus. Phasellus interdum velit sit amet erat aliquam posuere. Sed eget felis nec felis dignissim sollicitudin quis in turpis. In dignissim, mi non mollis scelerisque, massa magna commodo velit, sed commodo turpis massa quis tellus. Vestibulum ornare consequat laoreet. Nullam eu egestas lorem, sed feugiat tortor. Quisque enim tortor, malesuada quis nisl vel, bibendum rhoncus arcu. Fusce non tortor et lectus elementum venenatis. Pellentesque vehicula sodales ex.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- CV --> 
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 cv">
+				<h1 class="h1">EDUCATION</h1>
+				<p>
+				Nulla pharetra id odio ac hendrerit. Vivamus consectetur eget mauris in facilisis. Nulla mollis viverra vulputate. Curabitur nec ipsum sit amet felis pharetra blandit. Etiam vehicula ullamcorper nisi non vulputate. Vivamus faucibus risus in pulvinar sagittis. Nullam eleifend augue dui, sed placerat eros rutrum non. Nunc maximus elementum dictum. 
+				</p>
+			</div>
 			
-		<div class="container2">
-			<div class="summary-box">
-				Highly organized trilingual fast-learner with a background in IT sales and project management. Able to work under pressure both as an individual contributor and as a part of a team. Self-starter used to deal with ambiguity. Currently upskilling in web development. 
+			<div class="col-lg-4 cv">
+				<h1 class="h1">SKILLS</h1>
+				<p>
+				Maecenas convallis, orci eget sollicitudin egestas, tortor ex vehicula elit, at condimentum felis quam ut sem. Maecenas et ligula eu ante sodales vehicula. Donec sit amet elit luctus, egestas enim tincidunt, pellentesque urna. Integer facilisis venenatis pretium. Phasellus elementum magna in faucibus dictum. 
+				</p>
+			</div>
+			
+			<div class="col-lg-4 cv">
+				<h1 class="h1">EXPERIENCE</h1>
+				<p>
+				Aliquam ultrices magna sed neque convallis sagittis. Suspendisse pulvinar maximus diam id ullamcorper. Morbi quis accumsan massa.
+				</p>
 			</div>
 			
 		</div>
-		<br/>
-		<h2>Discover more:</h2>
-				<a href="https://www.instagram.com/ohdeardublin/" target="blank"><img class="icon" src="images/instagram-icon-mini.png" alt="Instagram icon"></a>
-				<a href="https://www.linkedin.com/in/paulina-stachera/" target="blank"><img class="icon" src="images/linkedin-icon-mini.png" alt="Instagram icon"></a>
-		
-		
-		<br/><br/>
-		
-		<footer>
-		-Made in October 2021-
-		</footer>
 	
-	</center>
+	</div>
+	
+	<!-- footer -->
+	<div class="row">
+		<div class="col-lg-12">
+			<nav class="navbar navbar-light bg-light">
+				<div class="container">
+					<span class="navbar-text mx-auto text-center">
+					<h2>Discover more:</h2>
+						<a href="https://www.instagram.com/ohdeardublin/" target="blank"><img class="icon" src="images/instagram-icon-mini.png" alt="Instagram icon"></a>
+						<a href="https://www.linkedin.com/in/paulina-stachera/" target="blank"><img class="icon" src="images/linkedin-icon-mini.png" alt="LinkedIn icon"></a>
+						<br/>
+						<p>-Made in October 2021-</p>
+					</span>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+<!-- the end -->
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 	</body>	
 </html>

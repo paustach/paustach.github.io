@@ -1,39 +1,33 @@
-@media(min-width:768px){
-	.container1{
-		display:flex; 
-		justify-content:center;
-		width: 50%; 
-		text-align: center; 
-	}
+body{
+	background-color: white;
+	color:gray;
+	font-family:Helvetica;
+	text-align: left; 
+}
 
-	.container2{
-		display:flex; 
-		justify-content:space-around;
-	}
+.h1{
+	text-align:center; 
 }
 
 .icon{
 	padding: 10px; 
 }
 
-.summary-box{
-	flex-basis:35%;
-	padding: 10px;
-	order: 1; 
+.container-about {
+	margin-top: 50px; 
 }
 
-body{
-	display: flex; 
-	flex-direction: column; 
-	background-image: url("../images/bg-2.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: bottom left;
-	background-color: white;
-	color:gray;
-	font-family:Helvetica;
+.description{
+	padding: 20px; 
 }
 
+.carousel-inner{
+	height: 360px;
+}
+
+.cv{
+	padding: 20px; 
+}
 
 /*
 #69cdff 
